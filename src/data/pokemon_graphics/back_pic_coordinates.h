@@ -105,15 +105,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x75,
         .y_offset = 0x0d,
     },
-    [SPECIES_SPEAROW] =
+    [SPECIES_RUFFLET] =
     {
-        .size = 0x65,
-        .y_offset = 0x0c,
+        .size = 0x45,
+        .y_offset = 0xa,
     },
-    [SPECIES_FEAROW] =
+    [SPECIES_BRAVIARY] =
     {
-        .size = 0x87,
-        .y_offset = 0x05,
+        .size = 0x45,
+        .y_offset = 0x1,
     },
     [SPECIES_EKANS] =
     {
@@ -135,15 +135,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 0x08,
     },
-    [SPECIES_SANDSHREW] =
+    [SPECIES_PAWNIARD] =
     {
-        .size = 0x65,
-        .y_offset = 0x0d,
+        .size = 0x45,
+        .y_offset = 0xa,
     },
-    [SPECIES_SANDSLASH] =
+    [SPECIES_BISHARP] =
     {
-        .size = 0x86,
-        .y_offset = 0x09,
+        .size = 0x45,
+        .y_offset = 0x0,
     },
     [SPECIES_NIDORAN_F] =
     {
@@ -280,15 +280,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x77,
         .y_offset = 0x05,
     },
-    [SPECIES_MANKEY] =
+    [SPECIES_SCRAGGY] =
     {
-        .size = 0x76,
-        .y_offset = 0x0b,
+        .size = 0x45,
+        .y_offset = 0xb,
     },
-    [SPECIES_PRIMEAPE] =
+    [SPECIES_SCRAFTY] =
     {
-        .size = 0x77,
-        .y_offset = 0x07,
+        .size = 0x45,
+        .y_offset = 0x4,
     },
     [SPECIES_GROWLITHE] =
     {
@@ -330,20 +330,20 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x67,
         .y_offset = 0x05,
     },
-    [SPECIES_MACHOP] =
+    [SPECIES_TIMBURR] =
     {
-        .size = 0x65,
-        .y_offset = 0x0c,
+        .size = 0x45,
+        .y_offset = 0xd,
     },
-    [SPECIES_MACHOKE] =
+    [SPECIES_GURDURR] =
     {
-        .size = 0x76,
-        .y_offset = 0x09,
+        .size = 0x45,
+        .y_offset = 0x0,
     },
-    [SPECIES_MACHAMP] =
+    [SPECIES_CONKELDURR] =
     {
-        .size = 0x67,
-        .y_offset = 0x04,
+        .size = 0x45,
+        .y_offset = 0x6,
     },
     [SPECIES_BELLSPROUT] =
     {
@@ -760,20 +760,20 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 0x08,
     },
-    [SPECIES_CHIKORITA] =
+    [SPECIES_TURTWIG] =
+    {
+        .size = 0x45,
+        .y_offset = 0xb,
+    },
+    [SPECIES_GROTLE] =
     {
         .size = 0x56,
-        .y_offset = 0x0a,
+        .y_offset = 0x7,
     },
-    [SPECIES_BAYLEEF] =
+    [SPECIES_TORTERRA] =
     {
-        .size = 0x66,
-        .y_offset = 0x08,
-    },
-    [SPECIES_MEGANIUM] =
-    {
-        .size = 0x78,
-        .y_offset = 0x00,
+        .size = 0x88,
+        .y_offset = 0x0,
     },
     [SPECIES_CYNDAQUIL] =
     {
@@ -835,15 +835,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x77,
         .y_offset = 0x07,
     },
-    [SPECIES_SPINARAK] =
+	[SPECIES_JOLTIK] =
     {
-        .size = 0x73,
-        .y_offset = 0x15,
+        .size = 0x45,
+        .y_offset = 0x11,
     },
-    [SPECIES_ARIADOS] =
+    [SPECIES_GALVANTULA] =
     {
-        .size = 0x86,
-        .y_offset = 0x0b,
+        .size = 0x45,
+        .y_offset = 0xa,
     },
     [SPECIES_CROBAT] =
     {
@@ -935,35 +935,35 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 0x09,
     },
-    [SPECIES_HOPPIP] =
+    [SPECIES_VANILLITE] =
     {
-        .size = 0x66,
-        .y_offset = 0x0b,
+        .size = 0x45,
+        .y_offset = 0xe,
     },
-    [SPECIES_SKIPLOOM] =
+    [SPECIES_VANILLISH] =
     {
-        .size = 0x65,
-        .y_offset = 0x0d,
+        .size = 0x45,
+        .y_offset = 0x5,
     },
-    [SPECIES_JUMPLUFF] =
+    [SPECIES_VANILLUXE] =
     {
-        .size = 0x87,
-        .y_offset = 0x04,
+        .size = 0x45,
+        .y_offset = 0x4,
     },
     [SPECIES_AIPOM] =
     {
         .size = 0x66,
         .y_offset = 0x09,
     },
-    [SPECIES_SUNKERN] =
+    [SPECIES_FERROSEED] =
     {
-        .size = 0x56,
-        .y_offset = 0x0a,
+        .size = 0x45,
+        .y_offset = 0xc,
     },
-    [SPECIES_SUNFLORA] =
+    [SPECIES_FERROTHORN] =
     {
-        .size = 0x66,
-        .y_offset = 0x08,
+        .size = 0x45,
+        .y_offset = 0x4,
     },
     [SPECIES_YANMA] =
     {
@@ -1590,15 +1590,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 0x06,
     },
-    [SPECIES_BALTOY] =
+    [SPECIES_GOLETT] =
     {
-        .size = 0x86,
-        .y_offset = 0x08,
+        .size = 0x45,
+        .y_offset = 0x7,
     },
-    [SPECIES_CLAYDOL] =
+    [SPECIES_GOLURK] =
     {
-        .size = 0x87,
-        .y_offset = 0x07,
+        .size = 0x45,
+        .y_offset = 0x0,
     },
     [SPECIES_NOSEPASS] =
     {
@@ -1740,15 +1740,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x85,
         .y_offset = 0x0c,
     },
-    [SPECIES_LUNATONE] =
+	[SPECIES_SOLGALEO] =
     {
-        .size = 0x87,
-        .y_offset = 0x05,
+        .size = 0x45,
+        .y_offset = 0x00,
     },
-    [SPECIES_SOLROCK] =
+    [SPECIES_LUNALA] =
     {
-        .size = 0x87,
-        .y_offset = 0x05,
+        .size = 0x45,
+        .y_offset = 0x00,
     },
     [SPECIES_AZURILL] =
     {
@@ -1805,15 +1805,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x77,
         .y_offset = 0x07,
     },
-    [SPECIES_DUSKULL] =
+    [SPECIES_YAMASK] =
     {
-        .size = 0x66,
-        .y_offset = 0x0b,
+        .size = 0x45,
+        .y_offset = 0xf,
     },
-    [SPECIES_DUSCLOPS] =
+    [SPECIES_COFAGRIGUS] =
     {
-        .size = 0x86,
-        .y_offset = 0x08,
+        .size = 0x45,
+        .y_offset = 0x0,
     },
     [SPECIES_ROSELIA] =
     {
@@ -1885,15 +1885,15 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x78,
         .y_offset = 0x03,
     },
-    [SPECIES_SHUPPET] =
+    [SPECIES_DRIFLOON] =
     {
-        .size = 0x77,
-        .y_offset = 0x06,
+        .size = 0x45,
+        .y_offset = 0x7,
     },
-    [SPECIES_BANETTE] =
+    [SPECIES_DRIFBLIM] =
     {
-        .size = 0x65,
-        .y_offset = 0x0c,
+        .size = 0x67,
+        .y_offset = 0x7,
     },
     [SPECIES_SEVIPER] =
     {
@@ -1975,20 +1975,20 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x77,
         .y_offset = 0x04,
     },
-    [SPECIES_BAGON] =
+    [SPECIES_DEINO] =
     {
-        .size = 0x66,
-        .y_offset = 0x08,
+        .size = 0x45,
+        .y_offset = 0xa,
     },
-    [SPECIES_SHELGON] =
+    [SPECIES_ZWEILOUS] =
     {
-        .size = 0x85,
-        .y_offset = 0x0d,
+        .size = 0x45,
+        .y_offset = 0x6,
     },
-    [SPECIES_SALAMENCE] =
+    [SPECIES_HYDREIGON] =
     {
-        .size = 0x77,
-        .y_offset = 0x06,
+        .size = 0x45,
+        .y_offset = 0x0,
     },
     [SPECIES_BELDUM] =
     {
